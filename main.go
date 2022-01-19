@@ -1,6 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	fmt,
+
+	fmt.Fprint("Hello again go")
 
 }

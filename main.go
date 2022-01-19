@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
-	fmt.Fprint("Hello again go")
+	//fmt.Printf("hello/s","Hello again GO")
+	//fmt.Print("Hello GoLang again")
+	fmt.Print("Hello GoLang again")
 
 }

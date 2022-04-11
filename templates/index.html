@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script> 
 <body>
-    <div class="contiener">
-
-    </div>
-    .container {
-    width: 100%;
-    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-    padding: 0 15px;
-    margin: 0 auto;
-    }
-</body>
+    
+    <div id="app">
+        <button @click="count++">
+          Count is: {{ count }}
+        </button>
+      </div></body>
 
 </html>
